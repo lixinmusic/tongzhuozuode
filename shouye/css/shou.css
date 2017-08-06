@@ -1,0 +1,681 @@
+*, h1, h2, h3, h4, input, p, img {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+@media screen and (max-width: 1900px) {
+  html {
+    font-size: 296.875px; } }
+
+@media screen and (max-width: 1380px) {
+  html {
+    font-size: 215.625px; } }
+
+@media screen and (max-width: 1370px) {
+  html {
+    font-size: 214.0625px; } }
+
+@media screen and (max-width: 1337px) {
+  html {
+    font-size: 208.90625px; } }
+
+@media screen and (max-width: 1300px) {
+  html {
+    font-size: 203.125px; } }
+
+@media screen and (max-width: 1280px) {
+  html {
+    font-size: 200px; } }
+
+@media screen and (max-width: 1250px) {
+  html {
+    font-size: 195.3125px; } }
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 187.5px; } }
+
+@media screen and (max-width: 1160px) {
+  html {
+    font-size: 181.25px; } }
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 125px; } }
+
+@media screen and (max-width: 750px) {
+  html {
+    font-size: 117.1875px; } }
+
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 100px; } }
+
+@media screen and (max-width: 540px) {
+  html {
+    font-size: 84.375px; } }
+
+@media screen and (max-width: 470px) {
+  html {
+    font-size: 73.4375px; } }
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 64.6875px; } }
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 64.375px; } }
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 58.59375px; } }
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 56.25px; } }
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 50px; } }
+
+body {
+  overflow-y: auto; 
+   overflow-x: hidden; 
+  background-color:#f5f5f5;
+  }
+  .heads{
+  	width:100%;
+  	height:1.86rem;
+  	background-color:#fe6367;
+  	position:relative
+  }
+  .tops{
+  	width: 1.18rem;
+  	height: 1.18rem;
+  	border:8px solid #fda1a4;
+  	border-radius: 100%;
+  	position: absolute;
+  	left:0.54rem;
+  	top:0.24rem;
+  }
+  .tops img{
+  	width: 1.18rem;
+  	height: 1.18rem;
+  	
+  }
+  
+  .vip img{
+  	width: 0.53rem;
+  	height:0.53rem;
+  	position: absolute;
+  	left:1.51rem;
+  	top:1.11rem;
+  	
+  }
+  h5{
+  	color:#FFF;
+  	font-size:0.26rem;
+  	position: absolute;
+  	left:2.16rem;
+  	top:0.88rem;
+  }
+  
+  .moyi{
+  	width:6.3rem;
+  	height: 3.9rem;
+  	border:1px solid #eeeeee; 
+  	background-color: #fff;
+  	margin: 0 auto;
+  	margin-top:0.13rem;
+  	 position: relative;
+  }
+  .ims{
+  	width:0.5rem;
+  	height:0.5rem;
+  	background-size:0.5rem;
+  	background-image: url(../images/灰色.png);
+  	position: absolute;
+  	right:0rem;
+  	top:0rem;
+  }
+  
+  
+  
+  .moyi-wo{
+  	width:5.6rem;
+  	height:1.5rem;
+    margin: 0 auto;
+    margin-top:0.21rem;
+    position: relative;
+  }
+  .moyi-yi{
+  	width: 0.99rem;
+  	height: 1.58rem;
+  }
+  .moyi-yi img{
+  	width: 0.99rem;
+  	height: 1.01rem;
+  
+  }
+  .fei{
+  	width: 1.26rem;
+  	height:0.31rem;
+  	/*font-weight: 700;*/
+  	font-size: 0.25rem;
+  	
+  	
+  }
+  .moy{
+  	width: 0.99rem;
+  	height: 1.58rem;
+  	
+  	position: absolute;
+  	left:2.39rem;
+  	top:0rem;
+  }
+  
+  .moy img{
+  	width: 0.99rem;
+  	height: 1.01rem;
+  	
+  	
+  	
+  }
+  .fei-yi{
+  	width: 1.26rem;
+  	height:0.31rem;
+  	/*font-weight: 700;*/
+  	font-size: 0.25rem;
+  	
+  }
+ 
+  .moyi-san{
+  	width: 0.99rem;
+  	height: 1.58rem;
+  	position: absolute;
+  	left:4.53rem;
+  	top:0rem;
+  }
+  .moyi-san img{
+  	width: 0.99rem;
+  	height: 1.01rem;
+  	
+  	
+  	
+  }
+  .fei-er{
+  	width: 1.26rem;
+  	height:0.31rem;
+  	/*font-weight: 700;*/
+  	font-size: 0.25rem;
+  	
+  }
+  
+  
+  
+  
+  .moer-ni{
+    width:5.6rem;
+  	height:1.5rem;
+    margin: 0 auto;
+    margin-top:0.21rem;
+    position: relative;
+  }
+  .moer-er{
+  	width: 0.99rem;
+  	height: 1.58rem;
+  }
+  .moer-er img{
+  	width: 0.99rem;
+  	height: 1.01rem;
+  	
+  }
+  .re{
+  	width: 1.26rem;
+  	height:0.31rem;
+  	/*font-weight: 700;*/
+  	font-size: 0.25rem;
+  }
+  .mok{
+  	width: 1.38rem;
+  	height: 1.58rem;
+  	position: absolute;
+  	left:2.39rem;
+  	top:0rem;
+  }
+  .mok img{
+  	width: 0.99rem;
+  	height: 1.01rem;
+  	
+  }
+  
+  .sr{
+  	width: 1.26rem;
+  	height:0.31rem;
+  	/*font-weight: 700;*/
+  	font-size: 0.25rem;
+  	position: absolute;
+  	left:-0.14rem;
+  	top:1.19rem;
+  }
+  .mok-yi{
+  	width: 0.99rem;
+  	height: 1.58rem;
+  	position: absolute;
+  	left:4.53rem;
+  	top:0rem;
+  }
+  .mok-yi img{
+  	width: 0.99rem;
+  	height: 1.01rem;
+  	
+  }
+  .vste{
+  	width: 1.26rem;
+  	height:0.31rem;
+  	/*font-weight: 700;*/
+  	font-size: 0.25rem;
+  	position: absolute;
+  	left:0rem;
+  	top:1.19rem;
+  }
+  
+.moer{
+	width:6.3rem;
+	height:2.43rem ;
+	border:1px solid #eeeeee; 
+	background-color: #fff;
+  margin: 0 auto;
+  margin-top:0.13rem;
+  position: relative;
+}
+
+/*00000000*/
+.fose{
+	width: 6.7rem;
+	height:1.51rem;
+	margin: 0 auto;
+  margin-top:0.54rem;
+  position: relative;
+}
+/*0000000000*/
+
+/*******11*********/
+.feis{
+	width:1.29rem;
+	height:1.51rem;
+	padding-left: 0.1rem;
+}
+.feis img{
+	width:1.02rem;
+	height:1.02rem;
+}
+.gits{
+	font-size: 0.2rem;
+}
+/*****11*********/
+
+
+
+/*2222222222*/
+.mostu{
+	width:1.6rem;
+	height:1.51rem;
+	position: absolute;
+	left:1.64rem;
+	top:0rem;
+
+}
+.mostu img{
+	width:1.02rem;
+	height:1.02rem;
+	position: absolute;
+	left:0.1rem;
+	top:0rem;
+
+}
+.liteas{
+	font-size: 0.2rem;
+	position: absolute;
+	left:-0.05rem;
+	top:1.21rem;
+}
+/*22222222222*/
+
+/*3333333333333*/
+
+.mogat{
+	width:1.34rem;
+	height:1.51rem;
+	position: absolute;
+	left:3.34rem;
+	top:0rem;
+
+}
+.mogat img{
+	width:1.02rem;
+	height:1.02rem;
+	
+}
+.losgt{
+	font-size: 0.2rem;
+	position: absolute;
+	left:-0.05rem;
+	top:1.21rem;
+}
+/*33333333333*/
+
+/*4444444444*/
+.mohtri{
+	width:1.34rem;
+	height:1.51rem;
+	position: absolute;
+	left:4.99rem;
+	top:0rem;
+
+}
+.mohtri img{
+	width:1.02rem;
+	height:1.02rem;
+	
+}
+.lpsty{
+	font-size: 0.2rem;
+	position: absolute;
+	left:-0.05rem;
+	top:1.21rem;
+}
+/*44444444444444444*/
+/*00000000000*/
+.mosan{
+	width:6.3rem;
+	height:2.43rem ;
+	border:1px solid #eeeeee; 
+	background-color: #fff;
+  margin: 0 auto;
+  margin-top:0.13rem;
+  position: relative;
+}
+.ster{
+		width: 6.7rem;
+	height:1.51rem;
+	margin: 0 auto;
+  margin-top:0.54rem;
+  position: relative;
+}
+/*0000000000*/
+/*1111111111111*/
+.gitess{
+	width:1.29rem;
+	height:1.51rem;
+	padding-left: 0.1rem;
+}
+.gitess img{
+	width:1.02rem;
+	height:1.02rem;
+}
+.kore{
+	font-size: 0.2rem;
+	position: absolute;
+	left:0.2rem;
+	top:1.21rem;
+}
+/*1111111111*/
+
+
+/*222222222222*/
+  
+.lsai{
+	width:1.29rem;
+	height:1.51rem;
+	position: absolute;
+	left:1.45rem;
+	top:0rem;
+
+}
+.lsai img{
+	width:1.02rem;
+	height:1.02rem;
+	padding-left:0.25rem;
+}
+.gteq{
+	font-size: 0.2rem;
+	position: absolute;
+	left:0.3rem;
+	top:1.21rem;
+	
+	
+}
+/*2222222222222222*/
+
+/*333333333333333333*/
+.lsais{
+	width:1.34rem;
+	height:1.51rem;
+	position: absolute;
+	left:3.24rem;
+	top:0rem;
+
+}
+.lsais img{
+	width:1.02rem;
+	height:1.02rem;
+padding-left:0.1rem;
+}
+.gteqs{
+	font-size: 0.2rem;
+	position: absolute;
+	left:0.2rem;
+	top:1.21rem;
+
+}
+/*3333333333333*/
+
+/*44444444444444*/
+.lgfts{
+	width:1.34rem;
+	height:1.51rem;
+	position: absolute;
+	left:4.99rem;
+	top:0rem;
+
+}
+.lgfts img{
+	width:1.02rem;
+	height:1.02rem;
+	
+}
+.lkrg{
+	font-size: 0.2rem;
+	position: absolute;
+	left:0.07rem;
+	top:1.21rem;
+}
+/*44444444444444*/
+
+.mosi{
+	width: 100%;
+	height:1.76rem;
+}
+
+.mosi p{
+	font-size: 0.2rem;
+	text-align: center;
+	margin-top:0.2rem;
+	color:#a5a5a5;
+}
+
+
+/*底部固定*/
+#fontss{
+	width: 100%;
+	height:0.81rem;
+	background-color:#fff;
+	position:fixed;
+	left:0;
+	bottom:0;
+}
+
+/*111111111111111*/
+.footre{
+	width: 0.4rem;
+	height:0.4rem;
+	position:absolute;
+	left:0.46rem;
+	top:0.1rem;
+	
+}
+.footre li a{
+	color: #666;
+    padding-top: 20px;
+    line-height: 20px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: auto 22px;
+    background-position: top center;
+}
+.xut a{
+	 background-image: url(../images/首页.png);
+}
+.xut a.on{
+	background-image: url(../images/首页红.png);
+}
+.footre span{
+	width:0.9rem;
+	color:#ababab;
+	font-size: 0.13rem;
+	position:absolute;
+	left:0rem;
+	top:0.4rem;
+}
+
+/*1111111111111111111111111*/
+
+
+/*2222222222222222*/
+.foyt{
+	width: 0.4rem;
+	height:0.4rem;
+	position:absolute;
+	left:1.64rem;
+	top:0.1rem;
+}
+.foyt li a{
+	color: #666;
+    padding-top: 20px;
+    line-height: 20px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: auto 22px;
+    background-position: top center;
+}
+.xost a{
+	 background-image: url(../images/新品.png);
+}
+.xost a.on{
+	background-image: url(../images/新品红.png);
+}
+.foyt span{
+	width:0.9rem;
+	color:#ababab;
+	font-size: 0.13rem;
+	position:absolute;
+	left:0rem;
+	top:0.4rem;
+}
+/*2222222222222222*/
+/*3333333333*/
+.styue{
+	width:1.08rem;
+	height:0.95rem;
+	position:absolute;
+	left:2.64rem;
+	top:-0.44rem;
+}
+.tsfr a img{
+	width:1.08rem;
+	height:0.95rem;
+}
+
+.styue span{
+	width:0.9rem;
+	color:#ababab;
+	font-size: 0.13rem;
+	position:absolute;
+	left:0.3rem;
+	top:0.95rem;
+}
+/*3333333333*/
+
+/*44444444444444*/
+.hop{
+	width: 0.59rem;
+	height:0.51rem;
+	position:absolute;
+	left:4.24rem;
+	top:0.1rem;
+}
+.hop li a{
+	color: #666;
+    padding-top: 20px;
+    line-height: 20px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: auto 22px;
+    background-position: top center;
+}
+.spits a{
+	 background-image: url(../images/购物车.png);
+}
+.spits a.on{
+	background-image: url(../images/购物车红.png);
+}
+
+.hop span{
+	width:0.9rem;
+	color:#ababab;
+	font-size: 0.13rem;
+	position:absolute;
+	left:0rem;
+	top:0.4rem;
+}
+/*55555555555555555*/
+.hops{
+	width: 0.59rem;
+	height:0.51rem;
+	position:absolute;
+	left:5.54rem;
+	top:0.1rem;
+}
+.hops li a{
+	color: #666;
+    padding-top: 20px;
+    line-height: 20px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: auto 22px;
+    background-position: top center;
+}
+.silt a{
+	 background-image: url(../images/我的.png);
+}
+.silt a.on{
+	background-image: url(../images/我的红.png);
+}
+.hops span{
+	width:0.9rem;
+	color:#ababab;
+	font-size: 0.13rem;
+	position:absolute;
+	left:0.08rem;
+	top:0.4rem;
+}
+
+/*55555555555555555*/
+
+
+  

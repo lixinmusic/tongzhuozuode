@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="HandheldFriendly" content="true">
+<meta name="MobileOptimized" content="320">
+<title>学习报告</title>
+<link rel="stylesheet" type="text/css" href="css/mui.min.css"/>
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/mui.min.js"></script>
+</head>
+<body class="my_write_bg">
+<header id="header" class="mui-bar mui-bar-nav">
+    <ul class="my_nav">
+    	<li class="wb50 on"><a href="#">课程报告</a></li>
+        <li class="wb50"><a href="#">考试报告</a></li>
+    </ul>
+</header>
+<footer id="footer" class="mui-bar mui-bar-footer my_footers">    
+    <ul class="my_menu_list">
+        <li class="my_sy"><a class="on" href="index.html">
+            <span>首页</span>
+        </a></li>
+        <li class="my_xx"><a href="#">
+            <span>学习</span>
+        </a></li>
+        <li class="my_ks"><a href="#">
+            <span>考试</span>
+        </a></li>
+        <li class="my_w"><a href="#">
+            <span>我的</span>
+        </a></li>
+	</ul>
+</footer>
+<div class="mui-content">
+      <ul class="mui-table-view mui-table-view-striped mui-table-view-condensed my_table-view">
+        <li class="mui-table-view-cell">
+            <a class="mui-table">
+                <div class="mui-table-cell">
+                    <h4 class="mui-ellipsis">信息化推进办公室张彦合同付款信息化推进办公室张彦合同付款信息化推进办公室张彦合同付款</h4>
+                    <p class="h5">申请人：李四</p>
+                    <span class="my_sircle"></span>
+                </div>
+                <div class="mui-text-right">
+                    <span class="mui-h5">2017-04-2212:25</span>
+                    <span class="mg_tag my_yellow_bg">未通过</span>
+                </div>
+            </a>
+        </li>
+        <li class="mui-table-view-cell">
+            <a class="mui-table">
+                <div class="mui-table-cell">
+                    <h4 class="mui-ellipsis">信息化推进办公室张彦合同付款信息化推进办公室张彦合同付款信息化推进办公室张彦合同付款</h4>
+                    <p class="h5">申请人：李四</p>
+                    <span class="my_sircle"></span>
+                </div>
+                <div class="mui-text-right">
+                    <span class="mui-h5">2017-04-2212:25</span>
+                    <span class="mg_tag my_green_bg">通过</span>
+                </div>
+            </a>
+        </li>
+        <li class="mui-table-view-cell">
+            <a class="mui-table">
+                <div class="mui-table-cell">
+                    <h4 class="mui-ellipsis">信息化推进办公室张彦合同付款信息化推进办公室张彦合同付款信息化推进办公室张彦合同付款</h4>
+                    <p class="h5">申请人：李四</p>
+                    <span class="my_sircle"></span>
+                </div>
+                <div class="mui-text-right">
+                    <span class="mui-h5">2017-04-2212:25</span>
+                    <span class="mg_tag my_yellow_bg">未通过</span>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>
+<script>
+	mui.init({
+		swipeBack:true //启用右滑关闭功能
+	});
+	$(function () {
+		$('#footer .my_menu_list li>a').click(function(){
+		$('#footer').find('a').removeClass('on');
+		$(this).addClass('on');
+		})
+		$('#header .my_nav li').click(function(){
+			$(this).addClass('on').siblings().removeClass("on"); 
+		})
+	})
+</script>
+</body>
+</html>

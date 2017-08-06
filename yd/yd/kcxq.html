@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="HandheldFriendly" content="true">
+<meta name="MobileOptimized" content="320">
+<title>课程详情</title>
+<link rel="stylesheet" type="text/css" href="css/mui.min.css"/>
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/mui.min.js"></script>
+<script src="js/radialIndicator.js"></script>
+</head>
+<body class="my_write_bg">
+<footer id="footer" class="mui-bar mui-bar-footer my_footers">    
+    <ul class="my_menu_list">
+        <li class="my_sy"><a class="on" href="index.html">
+            <span>首页</span>
+        </a></li>
+        <li class="my_xx"><a href="#">
+            <span>学习</span>
+        </a></li>
+        <li class="my_ks"><a href="#">
+            <span>考试</span>
+        </a></li>
+        <li class="my_w"><a href="#">
+            <span>我的</span>
+        </a></li>
+	</ul>
+</footer>
+<div class="mui-card-header my_img_meta">
+	<div class="my_detail_left">
+    	<div class="my_detail_img"><img src="images/ban_1.jpg"/></div><!--图片尺寸224*135-->
+        <span class="my-card-link my_green_bg my_learn">学习中</span>
+        <div class="my_per" id="indicatorContainer"></div>
+    </div>
+    <div class="my_detail_right">
+    	<h4>课程名称</h4>
+        <p>讲师：讲师</p>
+        <p>期限：2017/04/25 02:50:30</p>
+        <p><span>课时：36课时</span><span>学分：24分</span></p>
+    </div>
+</div>
+<div class="my-bar-nav">
+    <ul class="my_nav">
+    	<li class="wb33 on"><a href="#">目录</a></li>
+        <li class="wb33"><a href="#">详情</a></li>
+        <li class="wb33"><a href="#">笔记</a></li>
+    </ul>
+</div>
+<div class="mui-content">
+     <ul class="mui-table-view mui-table-view-chevron my_table-list">
+        <li class="mui-table-view-cell mui-media">
+            <a class="mui-navigate-right">
+                <div class="mui-media-body">
+                    <h4 class="mui-ellipsis">CBD</h4>
+                    <p class="my-clock">观看：00:15:00</p>
+                </div>
+            </a>
+        </li>
+        <li class="mui-table-view-cell mui-media">
+            <a class="mui-navigate-right" href="javascript:;">
+                <div class="mui-media-body">
+                     <h4 class="mui-ellipsis">远眺</h4>
+                    <p class="my-clock">观看：00:15:00</p>
+                </div>
+            </a>
+        </li>
+        <li class="mui-table-view-cell mui-media">
+            <a class="mui-navigate-right">
+                <div class="mui-media-body">
+                     <h4 class="mui-ellipsis">幸福</h4>
+                    <p class="my-clock">观看：00:15:00</p>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>
+<script>
+	mui.init({
+		swipeBack:true //启用右滑关闭功能
+	});
+	$(function () {
+		$('#footer .my_menu_list li>a').click(function(){
+			$('#footer').find('a').removeClass('on');
+			$(this).addClass('on');
+		})
+
+		$('#indicatorContainer').radialIndicator({
+			barColor: '#87CEEB',
+			barWidth: 6,
+			initValue: 30,
+			percentage: true,
+		})
+	});
+</script>
+</body>
+</html>

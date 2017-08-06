@@ -1,0 +1,229 @@
+*, h1, h2, h3, h4, input, p, img {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+@media screen and (max-width: 1900px) {
+  html {
+    font-size: 296.875px; } }
+
+@media screen and (max-width: 1380px) {
+  html {
+    font-size: 215.625px; } }
+
+@media screen and (max-width: 1370px) {
+  html {
+    font-size: 214.0625px; } }
+
+@media screen and (max-width: 1337px) {
+  html {
+    font-size: 208.90625px; } }
+
+@media screen and (max-width: 1300px) {
+  html {
+    font-size: 203.125px; } }
+
+@media screen and (max-width: 1280px) {
+  html {
+    font-size: 200px; } }
+
+@media screen and (max-width: 1250px) {
+  html {
+    font-size: 195.3125px; } }
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 187.5px; } }
+
+@media screen and (max-width: 1160px) {
+  html {
+    font-size: 181.25px; } }
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 125px; } }
+
+@media screen and (max-width: 750px) {
+  html {
+    font-size: 117.1875px; } }
+
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 100px; } }
+
+@media screen and (max-width: 540px) {
+  html {
+    font-size: 84.375px; } }
+
+@media screen and (max-width: 470px) {
+  html {
+    font-size: 73.4375px; } }
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 64.6875px; } }
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 64.375px; } }
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 58.59375px; } }
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 56.25px; } }
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 50px; } }
+
+body {
+  overflow-y: auto; 
+   overflow-x: hidden; 
+  background-image: url(../images/海报1背景.jpg);
+    background-repeat: no-repeat;
+   background-size:100%;
+  }
+  
+
+  .tops{
+  	width: 1.5rem;
+  	height: 1.5rem;
+  	border:8px solid #fda1a4;
+  	border-radius: 100%;
+  	position: absolute;
+  	left:0.64rem;
+  	top:0.54rem;
+  }
+  .tops img{
+  	width: 1.5rem;
+  	height: 1.5rem;
+  	
+  }
+  
+  h5{
+  color:#31639d;
+  	font-size:0.26rem;
+  	position: absolute;
+  	left:3.06rem;
+  	top:1.08rem;
+  }
+.foote{
+	background-image: url(../images/手机.png);
+	background-repeat: no-repeat;
+	background-size:0.34rem 0.33rem;
+	display:inline-block;
+	position: absolute;
+	left:2.47rem;
+	top:1.65rem;
+}
+.foote li{
+	color:#31639d;
+	font-size:0.26rem;
+	padding-left:0.4rem;
+}
+.conter{
+	width: 5.06rem;
+	
+	margin: 0 auto;
+
+	margin-top:2.2rem ;
+}
+.new img{
+	width:2rem;
+	height:1.03rem;
+
+	float:left;
+	
+}
+.news img{
+	width:2rem;
+	height:1.03rem;
+
+	float:right;
+}
+
+.newsa img{
+	width:2rem;
+	height:1.03rem;
+
+	float:left;
+	margin-top: 0.2rem;
+}
+
+.newdb img{
+	width:2rem;
+	height:1.03rem;
+
+	float:right;
+	margin-top: 0.2rem;
+}
+
+.newdbs img{
+	width:2rem;
+	height:1.03rem;
+
+	float:left;
+	margin-top: 0.2rem;
+}
+.newats img{
+	width:2rem;
+	height:1.03rem;
+
+	float:right;
+	margin-top: 0.2rem;
+}
+
+
+
+
+.newdbsa img{
+	width:2rem;
+	height:1.03rem;
+
+	float:left;
+	margin-top: 0.2rem;
+}
+.newatsb img{
+	width:2rem;
+	height:1.03rem;
+
+	float:right;
+	margin-top: 0.2rem;
+}
+
+
+.newdbsas img{
+	width:2rem;
+	height:1.03rem;
+
+	float:left;
+	margin-top: 0.2rem;
+}
+.newatsbs img{
+	width:2rem;
+	height:1.03rem;
+	
+	float:right;
+	margin-top: 0.2rem;
+}
+
+.newadbsas img{
+	width:2rem;
+	height:1.03rem;
+	
+	float:left;
+	margin-top: 0.2rem;
+}
+.newaatsbs img{
+	width:2rem;
+	height:1.03rem;
+	
+	float:right;
+	margin-top: 0.2rem;
+}

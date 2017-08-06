@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="HandheldFriendly" content="true">
+<meta name="MobileOptimized" content="320">
+<title>问卷</title>
+<link rel="stylesheet" type="text/css" href="css/mui.min.css"/>
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/mui.min.js"></script>
+</head>
+<body>
+<footer id="footer" class="mui-bar mui-bar-footer my_footers">    
+    <ul class="my_menu_list">
+        <li class="my_sy"><a class="on" href="index.html">
+            <span>首页</span>
+        </a></li>
+        <li class="my_xx"><a href="#">
+            <span>学习</span>
+        </a></li>
+        <li class="my_ks"><a href="#">
+            <span>考试</span>
+        </a></li>
+        <li class="my_w"><a href="#">
+            <span>我的</span>
+        </a></li>
+	</ul>
+</footer>
+<div class="mui-content">
+     <div class="mui-card">
+        <div class="mui-card-header mui-card-media" style="height:50vw;background-image:url(images/img_data.jpg)"></div>
+        <div class="mui-card-content">
+            <div class="mui-card-content-inner">
+                <h4 class="mui-ellipsis">信息化推进办公室张彦合同付款信息化推进办公室张彦合同付款信息化推进办公室张彦合同付款</h4>
+                <p>2017-04-2212:25</p>
+            </div>
+        </div>
+        <div class="mui-card-footer">
+            <a class="mui-card-link my_green_bg">我要作答</a>
+            <a class="mui-card-link mui-pull-right my_blue_bg">查看统计</a>
+        </div>
+    </div>
+    <div class="mui-card">
+        <div class="mui-card-header mui-card-media" style="height:50vw;background-image:url(images/img_data.jpg)"></div>
+        <div class="mui-card-content">
+            <div class="mui-card-content-inner">
+                <h4 class="mui-ellipsis">信息化推进办公室张<span><img class="my_status" src="images/over.gif"/></span></h4>
+                <p>2017-04-2212:25</p>
+            </div>
+        </div>
+        <div class="mui-card-footer">
+        	<span class="mui-card-link"></span>.
+            <a class="mui-card-link mui-pull-right my_blue_bg">查看统计</a>
+        </div>
+    </div>
+    
+</div>
+<script>
+	mui.init({
+		swipeBack:true //启用右滑关闭功能
+	});
+	$(function () {
+		$('#footer .my_menu_list li>a').click(function(){
+			$('#footer').find('a').removeClass('on');
+			$(this).addClass('on');
+		})
+	})
+</script>
+</body>
+</html>
